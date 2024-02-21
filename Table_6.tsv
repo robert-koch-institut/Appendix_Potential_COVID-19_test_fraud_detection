@@ -1,0 +1,3 @@
+Statistical_approach	Positive_overlap	Negative_overlab	Share_of_incrementally	statisticly_no_autorities_no	statisticly_yes_autorities_no	statisticly_no_autorities_yes	statisticly_yes_autorities_yes
+At least identified by one method	0.505	0.781	0.219	636	46	178	47
+At least identified by two methods	0.097	0.936	0.64	762	84	52	9

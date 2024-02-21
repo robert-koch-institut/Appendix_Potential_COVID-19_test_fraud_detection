@@ -1,0 +1,10 @@
+Facility_type	statistics	statistically_conspicuous	statistically_not_conspicuous	total
+Pharmacy	n	6	54	60
+Pharmacy	median	252.2	64.1	71.0
+Pharmacy	max	679.3	161.5	679.3
+Doctor's or dentist's office	n	39	351	390
+Doctor's or dentist's office	median	51.7	3.5	3.8
+Doctor's or dentist's office	max	1032	23	1032
+Private test center	n	46	411	457
+Private test center	median	515.4	106.6	116.3
+Private test center	max	5520	342.2	5520

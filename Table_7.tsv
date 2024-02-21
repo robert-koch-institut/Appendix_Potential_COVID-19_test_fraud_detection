@@ -1,0 +1,5 @@
+Facility_type	Test_centers	Test_centers_Suspected	Tests_Total	Tests_per_day_Mean	Tests_per_day_Max	Tests_per_day_Median	Test_Positive_rate
+Pharmacy	290	4	6795707	137.5	1387	98	0.0142
+Doctors or dentists office	357	6	8312270	141.4	1663	110	0.0175
+Private test center	160	3	4457176	159.3	2019	113	0.0116
+Total	807	13	19565153	143.7	2019	106	0.015

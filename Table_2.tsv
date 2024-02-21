@@ -1,0 +1,4 @@
+Variable	Estimate	Standard_Error	P-value
+A (global intercept)	-5.004	0.257	< 0.0001
+typ2 (Facility type: doctor's or dentist's office)	0.149	0.192	0.45
+typ3 (Facility type: private test center)	-0.477	0.182	0.0086

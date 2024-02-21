@@ -1,0 +1,5 @@
+Facility_type	Suspected_conspicuous	Suspected_not_conspicuous	Suspected_total	notSuspected_conspicuous	notSuspected_notconspicuous	notSuspected_total
+Pharmacy	0	0	0	5	55	60
+Doctor's or dentist's office	0	4	4	8	197	205
+Private test center	10	65	75	44	277	321
+Total	10	69	79	57	529	586

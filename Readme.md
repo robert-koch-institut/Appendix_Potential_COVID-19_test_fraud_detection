@@ -6,7 +6,7 @@
 <br>
 <br>
 
-**Michael Bosnjak**<sup>1</sup>, **Stefan Dahm**<sup>2</sup>, **Ronny Kuhnert**<sup>2</sup>, **Dennis Weihrauch**<sup>3</sup>, **Angelika Schaffrath Rosario**<sup>2</sup>, **Julia Hurraß**<sup>3</sup>, **Patrik Schmich**<sup>2,4</sup>, **Lothar Wieler**<sup>2,5</sup> und **Johannes Nießen**<sup>3</sup>
+**[Michael Bosnjak](https://orcid.org/0000-0002-1431-8461)**<sup>1</sup>, **[Stefan Dahm](https://orcid.org/0000-0002-5578-7133)**<sup>2</sup>, **[Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)**<sup>2</sup>, **Dennis Weihrauch**<sup>3</sup>, **[Angelika Schaffrath Rosario](https://orcid.org/0000-0001-7777-8070)**<sup>2</sup>, **[Julia Hurraß](https://orcid.org/0000-0002-9512-9338)**<sup>3</sup>, **Patrik Schmich**<sup>2,4</sup>, **[Lothar Wieler](https://orcid.org/0000-0003-4365-3717)**<sup>2,5</sup> und **Johannes Nießen**<sup>3</sup>
 
 &emsp;<sup>1</sup> Trier University, Department for Psychological Research Methods | [(correspondending author)](mailto:bosnjak@uni-trier.de)  
 &emsp;<sup>2</sup> Robert Koch Institute, Department for Epidemiology and Health Monitoring  

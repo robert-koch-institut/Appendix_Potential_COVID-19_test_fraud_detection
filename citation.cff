@@ -9,15 +9,22 @@ abstract: >-
   approaches&quot; are described in more detail in this appendix. The R-syntax
   for the calculation is provided, as well as a pseudo data set with which the
   syntax can also be tested.
-date-released: '2024-02-29'
+date-released: '2024-03-22'
 keywords:
   - COVID-19
+  - COVID-19 Testing
+  - ' Fraud Detection '
+  - Statistical Analysis
+  - Code
+  - Open Data
+  - Germany
+  - RKI
 message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/Appendix_-_COVID-19_test_fraud_detection:_Findings_from_a_pilot_study_comparing_conventional_and_statistical_approaches
 license: CC-BY-4.0
 doi: 10.5281/zenodo.10608926
-version: '2024-02-29T17:05:03+01:00'
+version: '2024-03-22T16:59:45+01:00'
 authors:
   - family-names: Bosnjak
     given-names: Michael

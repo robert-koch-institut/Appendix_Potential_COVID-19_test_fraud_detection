@@ -2,7 +2,7 @@
   <img src="https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland/assets/RKI_Logo.png" style="width: auto; height: 60px;">
 </p>
 
-# Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches 
+# Appendix - COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches 
 <br>
 <br>
 

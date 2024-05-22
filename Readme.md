@@ -17,7 +17,7 @@
 <br>
 
 **Zitieren**   
-Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P, Wieler L und Nießen J (2024): Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.10608926](https://doi.org/10.5281/zenodo.10608926).
+Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P, Wieler L und Nießen J (2024): Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.11241381](https://doi.org/10.5281/zenodo.11241381).
 
 
 ---
@@ -37,7 +37,7 @@ The publication of the data as well as the quality management of the (meta-)data
 We used data on claims for COVID-19 antigen tests submitted for reimbursement by 907 test centers operating in a German city with approximately one million residents for the timespan April 8, 2021 through August 28, 2022.   
 The data were transmitted on a daily basis via an online portal provided for this purpose by the ministry of a federal German state. Transmission was mandatory by law for the test centers by ["CoronaTeststrukturVO" from 2021-03-09](https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&gld_nr=2&ugl_nr=2126&bes_id=44844&menu=0&sg=0&aufgehoben=J&keyword=CoronaTeststrukturVO#det0), regulated in §5.  
 For each claim, the following information was provided: test center category (pharmacy, doctor's or dentist's office, private test center), date of testing, number of tests performed per day, number of positive tests per day. 
-The detailed data schmea of the analysed data can be found in section [data schema of the simulated data](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection?tab=readme-ov-file#data-schema-of-the-simulated-data), as we provide simuleted data in the same format. 
+The detailed data schmea of the analysed data can be found in section [data schema of the simulated data](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection?tab=readme-ov-file#data-schema-of-the-simulated-data), as we provide simuleted data in the same format. 
 
 ## Methods and Results 
 
@@ -55,13 +55,14 @@ In our first statistical approach aimed at identifying disproportionately high t
 **Analysis script**  
 The analysis on outlier identification from the mean number of tests per day invoiced was performed using an R script. The content of the script is provided as R file:
 
-> [supporting_material/scripts/Fraud_Methods_Description.r](./supporting_material/scripts/Fraud_Methods_Description.r)
+> [supporting_material/scripts/Fraud_Methods_Description.r](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Benford.r)
 
 Figure 1 shows the corresponding distributions resulting form the analysis.
 
 **Figure 1: Histograms of the mean number of tests performed per day (x-axis) by test center type (pharmacies, doctor's or dentist's offices, private test centers). The dashed vertical line indicates the 90% percentile of each distribution. Test centers falling  on the right sides of these lines are considered statistically conspicuous. The numbers above the bars indicate the number of test centers within each bar.**
 
-![](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_1.png "Histograms of the mean number of tests performed per day (x-axis) by test center type (pharmacies, doctor's or dentist's offices, private test centers).")
+
+![](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_1.png?raw=true "Histograms of the mean number of tests performed per day (x-axis) by test center type (pharmacies, doctor's or dentist's offices, private test centers).")
 
 A total of 91 testing centers (6 pharmacies, 39 physician practices/dentists, and 46 private testing sites) were classified as suspicious using this approach. Table 1 shows the basic statistics of the tests performed per day, divided into conspicuous and non-conspicuous test centers according to the statistical method. 
 
@@ -133,7 +134,7 @@ $\varepsilon_{ijkl}$ : 	Residual at day $i$ in test center $j$ in week $k$ and f
 
 The analysis to identify low positive rates by Poisson regression was performed with an R script. The content of the script is provided as R file:
 
-> [supporting_material/scripts/Fraud_Methods_Poisson_Regression.r](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Poisson_Regression.r)
+> [supporting_material/scripts/Fraud_Methods_Poisson_Regression.r](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Poisson_Regression.r)
 
 Corona tests were performed in the time span April 8, 2021 through August 28, 2022 on 73 weeks respective 508 days in 907 test centers, but not all centers operated for the entire period. This resulted in a total of N = 118,908 positive rates.
 
@@ -211,19 +212,19 @@ For data to undergo Benford analysis, it must exhibit a specific range and be re
 
 The analysis for deviations from Benford's Law was performed using an R script. The content of the script is provided as R file:
 
-> [supporting_material/scripts/Fraud_Methods_Benford.r](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Benford.r)
+> [supporting_material/scripts/Fraud_Methods_Benford.r](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Benford.r)
 
 Figure 2 shows the distribution of the leading digit according to Benford's law and the distribution over all data available for the observation period. Overall, there is good agreement. The leading 1 as well as the 2 occur slightly disproportionately according to Benford's law.
 
 
 **Figure 2: Distribution of leading digit of total reporting numbers (line) versus expected values of Benford's law (bars).**
 
-![](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_2.png "Distribution of leading digit of total reporting numbers (line) versus expected values of Benford's law (bars)")
+![](https://github.com/robert-koch-institut/Appendix_Potential_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_2.png?raw=true "Distribution of leading digit of total reporting numbers (line) versus expected values of Benford's law (bars)")
 
 A chi-square test is calculated for each of these 665 test centers. The chi-square test value determines the degree of deviation.
 
 **Figure 3: Illustration of the distribution of the leading digit of the five test centers (lines) with the largest deviations from Benford's law.**
-![](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_3.png "Illustration of the distribution of the leading digit of the five test centers (lines) with the largest deviations from Benford's law")
+![](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_3.png?raw=true "Illustration of the distribution of the leading digit of the five test centers (lines) with the largest deviations from Benford's law")
 
 In table 4, we have summarized the number of test centers classified by conventional methods and Benford´s Law. The threshold for test centers considered to be conspicuous according to Benford´s Law was set to those 10% with the largest chi-square test value.
 
@@ -287,12 +288,12 @@ Similar to the Benford approach, the last digit method requires data with a suff
 
 The analysis on deviations from the assumption of equally distributed last digits was performed using an R script. The content of the script is provided as R file:
 
-> [supporting_material/scripts/Fraud_Methods_Last_Digit.r](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Last_Digit.r)
+> [supporting_material/scripts/Fraud_Methods_Last_Digit.r](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/scripts/Fraud_Methods_Last_Digit.r)
 
 Figure 4 shows the distribution of the last digit comparing the expected distribution versus all reported data in the observation period. Overall, there is good agreement. The last digits 1 and 2 seem to be slightly overrepresented. 
 
 **Figure 4: Distribution of the last digit of the total number of reports (line) versus the expected distribution (bar).**
-![](./supporting_material/figures/figure_4.png "Distribution of the last digit of the total number of reports (line) versus the expected distribution (bar)")
+![](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_4.png?raw=true "Distribution of the last digit of the total number of reports (line) versus the expected distribution (bar)")
 
 A chi-square test is calculated for each of the 512 test centers. The chi-square test value determines the degree of deviation.
 
@@ -300,7 +301,7 @@ The five test centers with the greatest deviation from the expected distribution
 
 
 **Figure 5: Distribution of the last digit of the five test centes (line) with greatest deviation from the expected distribution (bar).**
-![](./supporting_material/figures/figure_5.png "Distribution of the last digit of the five test sites (line) with greatest deviation from the expected distribution (bar)")
+![](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_5.png?raw=true "Distribution of the last digit of the five test sites (line) with greatest deviation from the expected distribution (bar)")
 The threshold for test centers considered to be conspicuous according to the assumption about the last digit distribution was set to those 10% with the largest chi-square test value, yielding 52 test centers. In Table 5, we have summarized the number of test centers classified by traditional approach and the Last Digit method.
 
 **Table 5: Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from the law of equally distributed last digits.**
@@ -429,13 +430,13 @@ The results of the analyses conducted are provided as data tables. The files are
 
 | File | Description | Download | 
 | ---  | ----------- | :----: |
-| [Table_1.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_1.tsv) | Basic statistics of the mean number of tests per day and test centers by facility type, statistically conspicuous  and statistically not conspicuous of fraud | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_1.tsv)|
-| [Table_2.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_2.tsv) | Statistics of estimated fixed effects | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_2.tsv)|
-| [Table_3.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_3.tsv) | Summary of classifications into statistical conspicuous versus not conspicuous test centers according to the Poisson regression model used | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_3.tsv)|
-| [Table_4.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_4.tsv) | Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from Benford´s law. | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_4.tsv)|
-| [Table_5.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_5.tsv) | Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from the law of equally distributed last digits. | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_5.tsv)|
-| [Table_6.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_6.tsv) | Positive and negative overlap and share of  incrementally identified potentially fraudulent test centers by statistical approaches | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_6.tsv)|
-| [Table_7.tsv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_7.tsv) | Characteristic of simulated data | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_7.tsv)|
+| [Table_1.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_1.tsv) | Basic statistics of the mean number of tests per day and test centers by facility type, statistically conspicuous  and statistically not conspicuous of fraud | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_1.tsv)|
+| [Table_2.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_2.tsv) | Statistics of estimated fixed effects | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_2.tsv)|
+| [Table_3.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_3.tsv) | Summary of classifications into statistical conspicuous versus not conspicuous test centers according to the Poisson regression model used | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_3.tsv)|
+| [Table_4.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_4.tsv) | Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from Benford´s law. | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_4.tsv)|
+| [Table_5.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_5.tsv) | Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from the law of equally distributed last digits. | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_5.tsv)|
+| [Table_6.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_6.tsv) | Positive and negative overlap and share of  incrementally identified potentially fraudulent test centers by statistical approaches | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_6.tsv)|
+| [Table_7.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_7.tsv) | Characteristic of simulated data | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_7.tsv)|
 
 ### Supporting Materials
 
@@ -470,7 +471,7 @@ The figures are named according to the numbering in the appendix as `figure_1.pn
 
 The analysis scripts for the individual methods are provided as .r-files in the following subfolder:
 
-> [supporting_material/scripts](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/tree/main/supporting_material/scripts)
+> [supporting_material/scripts](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/supporting_material/scripts)
 
 The naming of the scripts is based on the methods used and is linked in the "Analysis script" sections.
 
@@ -492,7 +493,7 @@ Simulated data for testing the evaluation R-scripts are provided. These correspo
 
 
 The simulated data are available in the folder supporting_material in the file
-> [simulated_data.csv](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/simulated_data.csv)
+> [simulated_data.csv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/simulated_data.csv)
 
 Further information on the simulated data can be found in the corresponding [section](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection?tab=readme-ov-file#Simulated-data).
 
@@ -500,11 +501,11 @@ Further information on the simulated data can be found in the corresponding [sec
 
 To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
 
-> [Metadata/](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/tree/main/Metadata/)
+> [Metadata/](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/Metadata/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
 
-> [Metadata/zenodo.json](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json)
+> [Metadata/zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json)
 
 The zenodo.json includes the publication date (`"publication_date"`) and the date of the data status:
 ```
@@ -532,4 +533,4 @@ Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHu
 The "Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
-Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/LIZENZ) file of the dataset.
+Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LIZENZ) file of the dataset.

@@ -1,0 +1,101 @@
+{
+  "title": "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches",
+  "description": "<p>The methods and results of the publication &quot;COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches&quot; are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested.</p>\n",
+  "creators": [
+    {
+      "name": "Bosnjak, Michael",
+      "affiliation": "Trier University",
+      "orcid": "0000-0002-1431-8461"
+    },
+    {
+      "name": "Dahm, Stefan",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-5578-7133"
+    },
+    {
+      "name": "Kuhnert, Ronny",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0001-6617-8475"
+    },
+    {
+      "name": "Weihrauch, Dennis",
+      "affiliation": "City of Cologne"
+    },
+    {
+      "name": "Schaffrath Rosario, Angelika",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0001-7777-8070"
+    },
+    {
+      "name": "Hurraß, Julia",
+      "affiliation": "City of Cologne",
+      "orcid": "0000-0002-9512-9338"
+    },
+    {
+      "name": "Schmich, Patrik",
+      "affiliation": "Robert Koch-Institut"
+    },
+    {
+      "name": "Wieler, Lothar ",
+      "affiliation": "Hasso Plattner Institute",
+      "orcid": "0000-0003-4365-3717"
+    },
+    {
+      "name": "Nießen, Johannes",
+      "affiliation": "City of Cologne"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "COVID-19",
+    "COVID-19 Testing",
+    "Fraud Detection ",
+    "Statistical Analysis",
+    "Open Source",
+    "Open Data",
+    "Germany",
+    "RKI"
+  ],
+  "publication_date": "2024-05-22",
+  "version": "2024-05-22",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "subjects": [],
+  "dates": [
+    {
+      "start": "2024-05-22T13:27:59+02:00",
+      "end": "2024-05-22T13:27:59+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Readme.md",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/[Dokumentation]_Appendix_Potential_COVID-19_test_fraud_detection.pdf",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDescribedBy",
+      "identifier": "https://robert-koch-institut.github.io/Appendix_-_COVID-19_test_fraud_detection:_Findings_from_a_pilot_study_comparing_conventional_and_statistical_approaches",
+      "resource_type": "other"
+    }
+  ]
+}

@@ -15,18 +15,18 @@
     "titles": [
       {
         "language": "DE (German)",
-        "text": "Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches"
+        "text": "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches"
       }
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.10608926",
+        "identifier": "10.5281/zenodo.12155304",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
       },
       {
-        "identifier": "https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection",
+        "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection",
         "relationType": "A references B",
         "typeGeneral": "Dataset",
         "scheme": "URL"
@@ -75,7 +75,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2024-03-28"
+      "version": "2024-06-19"
     },
     "webpage": "https://robert-koch-institut.github.io/Appendix_-_COVID-19_test_fraud_detection:_Findings_from_a_pilot_study_comparing_conventional_and_statistical_approaches",
     "contributors": [
@@ -217,19 +217,6 @@
               "scheme": "ORCID"
             }
           ]
-        }
-      },
-      {
-        "affiliations": [
-          {
-            "name": "City of Cologne"
-          }
-        ],
-        "nameType": "Personal",
-        "personal": {
-          "type": "Creator/Author",
-          "givenName": "Johannes",
-          "familyName": "Nießen"
         }
       }
     ]

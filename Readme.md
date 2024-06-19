@@ -6,31 +6,31 @@
 <br>
 <br>
 
-**[Michael Bosnjak](https://orcid.org/0000-0002-1431-8461)**<sup>1</sup>, **[Stefan Dahm](https://orcid.org/0000-0002-5578-7133)**<sup>2</sup>, **[Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)**<sup>2</sup>, **Dennis Weihrauch**<sup>3</sup>, **[Angelika Schaffrath Rosario](https://orcid.org/0000-0001-7777-8070)**<sup>2</sup>, **[Julia Hurraß](https://orcid.org/0000-0002-9512-9338)**<sup>3</sup>, **Patrik Schmich**<sup>2,4</sup>, **[Lothar Wieler](https://orcid.org/0000-0003-4365-3717)**<sup>2,5</sup> und **Johannes Nießen**<sup>3</sup>
+**[Michael Bosnjak](https://orcid.org/0000-0002-1431-8461)**<sup>1,2*</sup>, **[Stefan Dahm](https://orcid.org/0000-0002-5578-7133)**<sup>2</sup>, **[Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)**<sup>2</sup>, **Dennis Weihrauch**<sup>3</sup>, **[Angelika Schaffrath Rosario](https://orcid.org/0000-0001-7777-8070)**<sup>2</sup>, **[Julia Hurraß](https://orcid.org/0000-0002-9512-9338)**<sup>3</sup>, **Patrik Schmich**<sup>2</sup> und **[Lothar Wieler](https://orcid.org/0000-0003-4365-3717)**<sup>4,2*</sup>
 
 &emsp;<sup>1</sup> Trier University, Department for Psychological Research Methods | [(correspondending author)](mailto:bosnjak@uni-trier.de)  
 &emsp;<sup>2</sup> Robert Koch Institute, Department for Epidemiology and Health Monitoring  
 &emsp;<sup>3</sup> City of Cologne, Health Authority, Infectious and Environmental Hygiene   
-&emsp;<sup>4</sup> Federal Ministry of Health, Projekt Group BIPAM  
-&emsp;<sup>5</sup> Hasso Plattner Institute, Department Digital Global Public Health  
+&emsp;<sup>4</sup> Hasso Plattner Institute, Department Digital Global Public Health  
+&emsp;<sup>*</sup> Institution at the time of the project start  
 <br>
 <br>
 
 **Zitieren**   
-Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P, Wieler L und Nießen J (2024): Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.11241381](https://doi.org/10.5281/zenodo.11241381).
+Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L  (2024): Appendix - Potential COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.12155304](https://doi.org/10.5281/zenodo.12155304).
 
 
 ---
 
-The methods and results of the publication "COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested. 
+The methods and results of the publication "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)" are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested. 
 
 
 ## Organisational and administrative information  
 
-The publicaton “COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches”, is a joined projekt of the Department for Psychological Research Methods - Trier University, Department 2 | Epidemiology and Health Monitoring - Robert Koch Institute, the Department Infectious and Environmental Hygieneare -  Health Authority of the City of Cologne and the Department Digital Global Public Health - Hasso Plattner Institute. The appendix presented here provides additional results and data for the publication and was currated by Department 2 | Epidemiology and Health Monitoring of the Robert Koch Institute. Questions regarding the content of the data can be addressed directly to the correspondending author Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@uni-trier.de).     
+The publicaton "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)", is a joined projekt of the Department for Psychological Research Methods - Trier University, Department 2 | Epidemiology and Health Monitoring - Robert Koch Institute, the Department Infectious and Environmental Hygieneare -  Health Authority of the City of Cologne and the Department Digital Global Public Health - Hasso Plattner Institute. The appendix presented here provides additional results and data for the publication and was currated by Department 2 | Epidemiology and Health Monitoring of the Robert Koch Institute. Questions regarding the content of the data can be addressed directly to the correspondending author Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@uni-trier.de).     
 The publication of the data as well as the quality management of the (meta-)data is done by the department MF 4 | Research Data and Infromation Management. Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at OpenData@rki.de.
 
-> Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P, Wieler L und Nießen J (2024): COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches.
+> Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L (2024): Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. J Health Monit. 2024;9(2):e 12100. DOI: [10.25646/12100](https://doi.org/10.25646/12100)
 
 ## Data 
 
@@ -361,7 +361,7 @@ The  positive and negative overlap give the ratio betweet the number of identifi
 If all test sites that are conspicuous by at least one statistical method are considered, the positive overlap also increases by 50.5% (47 test centers of the 93 test centers conspicuous by health authorities were classified also as conspicuous by at least one of the statistical methods). The negative overlap decreases to 78.1% (table 6). If test sites are considered to be conspicuous in the combination of at least 2 methods, the positive and negative overlap is comparable to that of the individual methods.   
 A more detailed descrition of the comparison can be found in the "Outcomes" section of our corsponding publication:
 
-> Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P, Wieler L und Nießen J (2024): COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches.
+> Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L (2024): Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. J Health Monit. 2024;9(2):e 12100. DOI: [10.25646/12100](https://doi.org/10.25646/12100).
 
 **Table 6: Positive and negative overlap and share of incrementally identified potentially fraudulent test centers by statistical approaches**
 
@@ -450,7 +450,7 @@ The Supporting Materials folder contains
 
 The figures listed in the appendix and their underlying data are provided in the "Figures" subfolder as .png and .tsv files.
 
-> [supporting_material/figures](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/tree/main/supporting_material/figures)
+> [supporting_material/figures](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/supporting_material/figures)
 
 The figures are named according to the numbering in the appendix as `figure_1.png`, etc. The underlying data for the figures are provided following the naming of the figures as `figure_1_data.tsv`, etc. The variables and values of the figure data are explained below.
 
@@ -495,7 +495,7 @@ Simulated data for testing the evaluation R-scripts are provided. These correspo
 The simulated data are available in the folder supporting_material in the file
 > [simulated_data.csv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/simulated_data.csv)
 
-Further information on the simulated data can be found in the corresponding [section](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection?tab=readme-ov-file#Simulated-data).
+Further information on the simulated data can be found in the corresponding [section](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection?tab=readme-ov-file#Simulated-data).
 
 ### Metadata
 
@@ -530,7 +530,7 @@ Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHu
 
 ### License
 
-The "Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
+The "Appendix - Potential COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches." dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
 Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LIZENZ) file of the dataset.

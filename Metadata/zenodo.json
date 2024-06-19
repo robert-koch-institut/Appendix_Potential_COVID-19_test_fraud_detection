@@ -1,5 +1,5 @@
 {
-  "title": "Appendix - COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches",
+  "title": "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches",
   "description": "<p>The methods and results of the publication &quot;COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches&quot; are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested.</p>\n",
   "creators": [
     {
@@ -39,10 +39,6 @@
       "name": "Wieler, Lothar ",
       "affiliation": "Hasso Plattner Institute",
       "orcid": "0000-0003-4365-3717"
-    },
-    {
-      "name": "Nießen, Johannes",
-      "affiliation": "City of Cologne"
     }
   ],
   "contributors": [],
@@ -56,8 +52,8 @@
     "Germany",
     "RKI"
   ],
-  "publication_date": "2024-03-28",
-  "version": "2024-03-28",
+  "publication_date": "2024-06-19",
+  "version": "2024-06-19",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -70,8 +66,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2024-03-28T08:54:01+01:00",
-      "end": "2024-03-28T08:54:01+01:00",
+      "start": "2024-06-19T13:33:18+02:00",
+      "end": "2024-06-19T13:33:18+02:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
@@ -79,17 +75,17 @@
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
-      "identifier": "https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection",
+      "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection",
       "resource_type": "dataset"
     },
     {
       "relation": "isDocumentedBy",
-      "identifier": "https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Readme.md",
+      "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Readme.md",
       "resource_type": "publication-report"
     },
     {
       "relation": "isDocumentedBy",
-      "identifier": "https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/[Dokumentation]_Appendix_COVID-19_test_fraud_detection.pdf",
+      "identifier": "https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/[Dokumentation]_Appendix_Potential_COVID-19_test_fraud_detection.pdf",
       "resource_type": "publication-report"
     },
     {

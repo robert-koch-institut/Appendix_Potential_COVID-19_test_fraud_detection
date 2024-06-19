@@ -23,7 +23,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/Appendix_-_COVID-19_test_fraud_detection:_Findings_from_a_pilot_study_comparing_conventional_and_statistical_approaches
 license: CC-BY-4.0
-doi: 10.5281/zenodo.12155304
+doi: 10.5281/zenodo.12168750
 version: '2024-06-19T13:33:18+02:00'
 authors:
   - family-names: Bosnjak

@@ -2,7 +2,7 @@
   <img src="https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland/assets/RKI_Logo.png" style="width: auto; height: 60px;">
 </p>
 
-# Appendix - Potential COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches 
+# Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches 
 <br>
 <br>
 
@@ -17,7 +17,7 @@
 <br>
 
 **Zitieren**   
-Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L  (2024): Appendix - Potential COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.12155304](https://doi.org/10.5281/zenodo.12155304).
+Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L  (2024): Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.12168750](https://doi.org/10.5281/zenodo.12168750).
 
 
 ---
@@ -507,8 +507,9 @@ Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org)
 
 > [Metadata/zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json)
 
-The zenodo.json includes the publication date (`"publication_date"`) and the date of the data status:
+The zenodo.json includes the publication date and the date of the data status in the following format (example):
 ```
+  "publication_date": "2024-06-19",
   "dates": [
     {
       "start": "2023-09-11T15:00:21+02:00",
@@ -530,7 +531,7 @@ Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHu
 
 ### License
 
-The "Appendix - Potential COVID-19 potential test fraud detection: Findings from a pilot study comparing conventional and statistical approaches." dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
+The "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches." dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
 Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LIZENZ) file of the dataset.

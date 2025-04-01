@@ -497,13 +497,17 @@ The simulated data are available in the folder supporting_material in the file
 
 Further information on the simulated data can be found in the corresponding [section](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection?tab=readme-ov-file#Simulated-data).
 
+
+<!-- FOOTER_START: {"lang": "en"} -->
+
+
 ### Metadata
 
 To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
 
 > [Metadata/](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/Metadata/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
 
 > [Metadata/zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json)
 
@@ -520,6 +524,22 @@ The zenodo.json includes the publication date and the date of the data status in
   ],
 ```
 
+
+Additionally, we describe tabular data using the [Data Package Standard](https://datapackage.org/).  
+A Data Package is a structured collection of data and associated metadata that facilitates data exchange and reuse. It consists of a `datapackage.json` file that contains key information such as the included resources, their formats, and schema definitions.  
+
+The Data Package Standard is provided by the [Open Knowledge Foundation](https://okfn.org/) and is an open format that enables a simple, machine-readable description of datasets.  
+
+The list of data included in this repository can be found in the following file:  
+
+> [datapackage.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/datapackage.json)  
+
+For tabular data, we additionally define a [Table Schema](https://datapackage.org/standard/table-schema/) that describes the structure of the tables, including column names, data types, and validation rules. These schema files can be found in:  
+
+> [Metadata/schemas/](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/Metadata/schemas)  
+
+
+
 ## Guidelines for Reuse of the Data
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
@@ -531,7 +551,10 @@ Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHu
 
 ### License
 
-The "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches." dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
+The "Anhang – Mögliche Betrugserkennung bei COVID-19-Tests: Ergebnisse einer Pilotstudie zum Vergleich konventioneller und statistischer Ansätze" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
 Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LIZENZ) file of the dataset.
+
+
+<!-- FOOTER_END -->

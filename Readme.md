@@ -2,32 +2,68 @@
   <img src="https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland/assets/RKI_Logo.png" style="width: auto; height: 60px;">
 </p>
 
-# Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches 
-<br>
-<br>
+ <!-- HEADER_START: {"lang": "en"} -->
 
-**[Michael Bosnjak](https://orcid.org/0000-0002-1431-8461)**<sup>1,2*</sup>, **[Stefan Dahm](https://orcid.org/0000-0002-5578-7133)**<sup>2</sup>, **[Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)**<sup>2</sup>, **Dennis Weihrauch**<sup>3</sup>, **[Angelika Schaffrath Rosario](https://orcid.org/0000-0001-7777-8070)**<sup>2</sup>, **[Julia Hurraß](https://orcid.org/0000-0002-9512-9338)**<sup>3</sup>, **Patrik Schmich**<sup>2</sup> und **[Lothar Wieler](https://orcid.org/0000-0003-4365-3717)**<sup>4,2*</sup>
 
-&emsp;<sup>1</sup> Trier University, Department for Psychological Research Methods | [(correspondending author)](mailto:bosnjak@uni-trier.de)  
-&emsp;<sup>2</sup> Robert Koch Institute, Department for Epidemiology and Health Monitoring  
-&emsp;<sup>3</sup> City of Cologne, Health Authority, Infectious and Environmental Hygiene   
-&emsp;<sup>4</sup> Hasso Plattner Institute, Department Digital Global Public Health  
-&emsp;<sup>*</sup> Institution at the time of the project start  
+Documentation  
+# Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches
+
+<br> 
+<br> 
+<br> 
+
+[**Michael Bosnjak**](https://orcid.org/0000-0002-1431-8461), [**Stefan Dahm**](https://orcid.org/0000-0002-5578-7133), [**Ronny Kuhnert**](https://orcid.org/0000-0001-6617-8475), **Dennis Weihrauch**, [**Angelika Schaffrath Rosario**](https://orcid.org/0000-0001-7777-8070), [**Julia Hurraß**](https://orcid.org/0000-0002-9512-9338), **Patrik Schmich**, & [**Lothar  Wieler**](https://orcid.org/0000-0003-4365-3717)
+
+<br> 
+
+
+
+
+
+<br> 
+
+**Cite**  
+Bosnjak, M., Dahm, S., Kuhnert, R., Weihrauch, D., Schaffrath Rosario, A., Hurraß, J., Schmich, P., & Wieler, L. (2024). Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.12168750](https://doi.org/10.5281/zenodo.12168750)
+
 <br>
-<br>
-
-**Zitieren**   
-Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L  (2024): Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. [Dataset] Zenodo. DOI:[10.5281/zenodo.12168750](https://doi.org/10.5281/zenodo.12168750).
-
 
 ---
+
+Corresponding author: Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@uni-trier.de)
+
+---
+
+
+<br>
+
+**Abstract**    
+The methods and results of the publication "COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested.
+
+<br>
+
+**Table of Content**
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Organisational and administrative information](#organisational-and-administrative-information)
+  - [Data](#data)
+  - [Methods and Results](#methods-and-results)
+  - [Simulated data](#simulated-data)
+  - [Content and structure of the appendix data](#content-and-structure-of-the-appendix-data)
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
+<!-- TOC_END -->
+
+<br>
+<!-- HEADER_END -->
+
+---
+
+<br>
 
 The methods and results of the publication "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)" are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested. 
 
 
 ## Organisational and administrative information  
 
-The publicaton "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)", is a joined projekt of the Department for Psychological Research Methods - Trier University, Department 2 | Epidemiology and Health Monitoring - Robert Koch Institute, the Department Infectious and Environmental Hygieneare -  Health Authority of the City of Cologne and the Department Digital Global Public Health - Hasso Plattner Institute. The appendix presented here provides additional results and data for the publication and was currated by Department 2 | Epidemiology and Health Monitoring of the Robert Koch Institute. Questions regarding the content of the data can be addressed directly to the correspondending author Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@uni-trier.de).     
+The publicaton "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)", is a joined projekt of the Department for Psychological Research Methods - Trier University, Department 2 | Epidemiology and Health Monitoring - Robert Koch Institute, the Department Infectious and Environmental Hygieneare -  Health Authority of the City of Cologne and the Department Digital Global Public Health - Hasso Plattner Institute. The appendix presented here provides additional results and data for the publication and was currated by Department 2 | Epidemiology and Health Monitoring of the Robert Koch Institute. Questions regarding the content of the data can be addressed directly to the corresponding author Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@uni-trier.de).     
 The publication of the data as well as the quality management of the (meta-)data is done by the department MF 4 | Research Data and Infromation Management. Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at OpenData@rki.de.
 
 > Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L (2024): Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. J Health Monit. 2024;9(2):e 12100. DOI: [10.25646/12100](https://doi.org/10.25646/12100)
@@ -507,7 +543,7 @@ To increase findability, the provided data are described with metadata. The Meta
 
 > [Metadata/](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/Metadata/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
 
 > [Metadata/zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json)
 
@@ -519,28 +555,15 @@ The zenodo.json includes the publication date and the date of the data status in
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
       "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "description": "Date when the dataset was created"
     }
   ],
 ```
 
 
-Additionally, we describe tabular data using the [Data Package Standard](https://datapackage.org/).  
-A Data Package is a structured collection of data and associated metadata that facilitates data exchange and reuse. It consists of a `datapackage.json` file that contains key information such as the included resources, their formats, and schema definitions.  
-
-The Data Package Standard is provided by the [Open Knowledge Foundation](https://okfn.org/) and is an open format that enables a simple, machine-readable description of datasets.  
-
-The list of data included in this repository can be found in the following file:  
-
-> [datapackage.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/datapackage.json)  
-
-For tabular data, we additionally define a [Table Schema](https://datapackage.org/standard/table-schema/) that describes the structure of the tables, including column names, data types, and validation rules. These schema files can be found in:  
-
-> [Metadata/schemas/](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/Metadata/schemas)  
 
 
-
-## Guidelines for Reuse of the Data
+## Guidelines for reuse of the data
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
 
@@ -551,7 +574,7 @@ Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHu
 
 ### License
 
-The "Anhang – Mögliche Betrugserkennung bei COVID-19-Tests: Ergebnisse einer Pilotstudie zum Vergleich konventioneller und statistischer Ansätze" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
+The "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
 Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/LIZENZ) file of the dataset.

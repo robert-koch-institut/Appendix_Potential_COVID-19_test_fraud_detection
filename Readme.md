@@ -477,6 +477,7 @@ The results of the analyses conducted are provided as data tables. The files are
 ### Supporting Materials
 
 The Supporting Materials folder contains 
+
 * All figures used in the appendix  
 * The underlying data for the figures  
 * The R-scripts used for the analysis  

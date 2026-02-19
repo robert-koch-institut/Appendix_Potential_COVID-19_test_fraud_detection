@@ -6,24 +6,32 @@
 
 
 Documentation  
+
 # Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches
 
 <br> 
 <br> 
 <br> 
 
-[**Michael Bosnjak**](https://orcid.org/0000-0002-1431-8461), [**Stefan Dahm**](https://orcid.org/0000-0002-5578-7133), [**Ronny Kuhnert**](https://orcid.org/0000-0001-6617-8475), **Dennis Weihrauch**, [**Angelika Schaffrath Rosario**](https://orcid.org/0000-0001-7777-8070), [**Julia Hurraß**](https://orcid.org/0000-0002-9512-9338), **Patrik Schmich**, & [**Lothar  Wieler**](https://orcid.org/0000-0003-4365-3717)
+[**Michael Bosnjak**](https://orcid.org/0000-0002-1431-8461)&sup1;, [**Stefan Dahm**](https://orcid.org/0000-0002-5578-7133)&sup2;, [**Ronny Kuhnert**](https://orcid.org/0000-0001-6617-8475)&sup3;, **Dennis Weihrauch**&#8308;, [**Angelika Schaffrath Rosario**](https://orcid.org/0000-0001-7777-8070)&#8309;, [**Julia Hurraß**](https://orcid.org/0000-0002-9512-9338)&#8308;, **Patrik Schmich**&sup3;, & [**Lothar  Wieler**](https://orcid.org/0000-0003-4365-3717)&#8310;
 
 <br> 
 
 
 
-
+&emsp;&emsp;&sup1; Trier University | Department for Psychological Research Methods  
+&emsp;&emsp;&sup2; [Robert Koch Institute](https://www.rki.de/en) | [ZfKD](https://www.rki.de/zfkd-en)  
+&emsp;&emsp;&sup3; [Robert Koch Institute](https://www.rki.de/en) | [Unit 21](https://www.rki.de/fg21-en)  
+&emsp;&emsp;&#8308; City of Cologne | Health Authority, Infectious and Environmental Hygiene  
+&emsp;&emsp;&#8309; [Robert Koch Institute](https://www.rki.de/en) | [Unit 24](https://www.rki.de/fg24-en)  
+&emsp;&emsp;&#8310; Hasso Plattner Institute | Department Digital Global Public Health
 
 <br> 
 
 **Cite**  
-Bosnjak, M., Dahm, S., Kuhnert, R., Weihrauch, D., Schaffrath Rosario, A., Hurraß, J., Schmich, P., & Wieler, L. (2024). Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.12168750](https://doi.org/10.5281/zenodo.12168750)
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Bosnjak, M., Dahm, S., Kuhnert, R., Weihrauch, D., Schaffrath Rosario, A., Hurraß, J., Schmich, P., & Wieler, L. (2026). Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.12168750](https://doi.org/10.5281/zenodo.12168750)
+<!-- CITATION_END -->
 
 <br>
 
@@ -37,34 +45,33 @@ Corresponding author: Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@un
 <br>
 
 **Abstract**    
-The methods and results of the publication "COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested.
+The methods and results of the publication "COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" ([https://doi.org/10.25646/12100](https://doi.org/10.25646/12100)) are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested.
 
 <br>
 
-**Table of Content**
+**Table of Content**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Organisational and administrative information](#organisational-and-administrative-information)
-  - [Data](#data)
-  - [Methods and Results](#methods-and-results)
-  - [Simulated data](#simulated-data)
-  - [Content and structure of the appendix data](#content-and-structure-of-the-appendix-data)
-  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
+  - [Organisational and administrative information](#organisational-and-administrative-information)  
+  - [Data](#data)  
+  - [Methods and Results](#methods-and-results)  
+  - [Simulated data](#simulated-data)  
+  - [Content and structure of the appendix data](#content-and-structure-of-the-appendix-data)  
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)  
 <!-- TOC_END -->
 
 <br>
+
 <!-- HEADER_END -->
 
 ---
 
 <br>
 
-The methods and results of the publication "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)" are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested. 
-
-
 ## Organisational and administrative information  
 
 The publicaton "[Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches](https://doi.org/10.25646/12100)", is a joined projekt of the Department for Psychological Research Methods - Trier University, Department 2 | Epidemiology and Health Monitoring - Robert Koch Institute, the Department Infectious and Environmental Hygieneare -  Health Authority of the City of Cologne and the Department Digital Global Public Health - Hasso Plattner Institute. The appendix presented here provides additional results and data for the publication and was currated by Department 2 | Epidemiology and Health Monitoring of the Robert Koch Institute. Questions regarding the content of the data can be addressed directly to the corresponding author Michael Bosnjak [(bosnjak@uni-trier.de)](mailto:bosnjak@uni-trier.de).     
-The publication of the data as well as the quality management of the (meta-)data is done by the department MF 4 | Research Data and Infromation Management. Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at OpenData@rki.de.
+The publication of the data as well as the quality management of the (meta-)data is done by the department MF 4 | Research Data and Information Management. Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at [OpenData@rki.de](mailto:OpenData@rki.de).
 
 > Bosnjak M, Dahm S, Kuhnert R, Weihrauch D, Schaffrath Rosario A, Hurraß J, Schmich P und Wieler L (2024): Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches. J Health Monit. 2024;9(2):e 12100. DOI: [10.25646/12100](https://doi.org/10.25646/12100)
 
@@ -103,12 +110,15 @@ Figure 1 shows the corresponding distributions resulting form the analysis.
 A total of 91 testing centers (6 pharmacies, 39 physician practices/dentists, and 46 private testing sites) were classified as suspicious using this approach. Table 1 shows the basic statistics of the tests performed per day, divided into conspicuous and non-conspicuous test centers according to the statistical method. 
 
 **Table 1: Basic statistics of the mean number of tests per day and test centers by facility type, statistically conspicuous  and statistically not conspicuous of fraud**
-<table><tr>
+
+<table>
+<tr>
     <th colspan="1" rowspan="2" align="left">Facility type</th>
     <th colspan="3" rowspan="1" valign="center">Statistically conspicuous</th>
     <th colspan="3" rowspan="1" valign="center">Statistically not conspicuous</th>
     <th colspan="3" rowspan="1" valign="center">Total</th></tr>
-<tr><td colspan="1" align="center" valign="bottom"><b>N</b></td>
+<tr>
+    <td colspan="1" align="center" valign="bottom"><b>N</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Median</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Max</b></td>
     <td colspan="1" align="center" valign="bottom"><b>N</b></td>
@@ -117,7 +127,8 @@ A total of 91 testing centers (6 pharmacies, 39 physician practices/dentists, an
     <td colspan="1" align="center" valign="bottom"><b>N</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Median</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Max</b></td></tr>
-<tr><td colspan="1" align="left"><b>Pharmacy</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Pharmacy</b></td>
     <td colspan="1" align="center">6</td>
     <td colspan="1" align="center">252.2</td>
     <td colspan="1" align="center">679.3</td>
@@ -127,7 +138,8 @@ A total of 91 testing centers (6 pharmacies, 39 physician practices/dentists, an
     <td colspan="1" align="center">60</td>
     <td colspan="1" align="center">71.0</td>
     <td colspan="1" align="center">679.3</td></tr>
-<tr><td colspan="1" align="left"><b>Doctor's or dentist's office</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Doctor's or dentist's office</b></td>
     <td colspan="1" align="center">39</td>
     <td colspan="1" align="center">51.7</td>
     <td colspan="1" align="center">1,032.0</td>
@@ -137,7 +149,8 @@ A total of 91 testing centers (6 pharmacies, 39 physician practices/dentists, an
     <td colspan="1" align="center">390</td>
     <td colspan="1" align="center">3.8</td>
     <td colspan="1" align="center">1,032.0</td></tr>
-<tr><td colspan="1" align="left"><b>Private test center</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Private test center</b></td>
     <td colspan="1" align="center">46</td>
     <td colspan="1" align="center">515.4</td>
     <td colspan="1" align="center">5,520.0</td>
@@ -148,7 +161,6 @@ A total of 91 testing centers (6 pharmacies, 39 physician practices/dentists, an
     <td colspan="1" align="center">116.3</td>
     <td colspan="1" align="center">5,520.0</td></tr>
 </table>
-
 
 ### Low positive rates identified by Poisson regression (low positive rate) 
 
@@ -186,25 +198,29 @@ The differences between the mean positive rates by facility type (Table 2) were 
 
 A low center specific random intercept j indicates a low mean positive rate for the tests in resp. center. Therefore, the reporting of tests conducted by a test center was considered conspicuous if its estimated random intercept was significantly low. The estimated test center intercepts ($\beta_j$) and their standard deviations sd($\beta_j$) were used to generate test values comparable to the t-values of the t-test:
 
-$$r_j=  \frac{\beta_j}{sd(\beta_j)}, j = 1,..., 907$$                                                   
+$$ r_j=  \frac{\beta_j}{sd(\beta_j)}, j = 1,..., 907 $$                                                   
 
 The test values  $r_j$ ranged from -23.0 to 49.0 corresponding to positive rates of 0.5% resp. 10.6%. A value of $r_j$ < -6 was regarded as significant. According to this criterion, the 907 test centers could be classified to 88 conspicuous and 819 not conspicuous test centers (s. Table 3), where the mean positive rate in conspicuous test centers amounted to 0.6% and the not conspicuous test centers had a mean positive rate of 2.3%. 
 
 **Table 3: Summary of classifications into statistical conspicuous versus not conspicuous test centers according to the Poisson regression model used**
-<table><tr>
+
+<table>
+<tr>
     <th colspan="1" rowspan="2" align="left">Facility type</th>
     <th colspan="2" rowspan="1" valign="center">Statistically conspicuous</th>
     <th colspan="2" rowspan="1" valign="center">Statistically not conspicuous</th>
     <th colspan="2" rowspan="1" valign="center">Total</th>
 </tr>
-<tr><td colspan="1" valign="bottom"><b>Number</b></td>
+<tr>
+    <td colspan="1" valign="bottom"><b>Number</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Positive rate</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Number</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Positive rate</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Number</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Positive rate</b></td>
 </tr>
-<tr><td colspan="1" align="left"><b>Pharmacy</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Pharmacy</b></td>
     <td colspan="1" align="center">11</td>
     <td colspan="1" align="center">0.88</td>
     <td colspan="1" align="center">49</td>
@@ -212,7 +228,8 @@ The test values  $r_j$ ranged from -23.0 to 49.0 corresponding to positive rates
     <td colspan="1" align="center">60</td>
     <td colspan="1" align="center">2.44</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Doctor's or dentist's office</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Doctor's or dentist's office</b></td>
     <td colspan="1" align="center">16</td>
     <td colspan="1" align="center">0.59</td>
     <td colspan="1" align="center">374</td>
@@ -220,7 +237,8 @@ The test values  $r_j$ ranged from -23.0 to 49.0 corresponding to positive rates
     <td colspan="1" align="center">390</td>
     <td colspan="1" align="center">2.75</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Private test center</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Private test center</b></td>
     <td colspan="1" align="center">61</td>
     <td colspan="1" align="center">0.54</td>
     <td colspan="1" align="center">396</td>
@@ -228,7 +246,8 @@ The test values  $r_j$ ranged from -23.0 to 49.0 corresponding to positive rates
     <td colspan="1" align="center">457</td>
     <td colspan="1" align="center">1.95</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Total</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Total</b></td>
     <td colspan="1" align="center">88</td>
     <td colspan="1" align="center">0.58</td>
     <td colspan="1" align="center">819</td>
@@ -255,7 +274,7 @@ Figure 2 shows the distribution of the leading digit according to Benford's law 
 
 **Figure 2: Distribution of leading digit of total reporting numbers (line) versus expected values of Benford's law (bars).**
 
-![](https://github.com/robert-koch-institut/Appendix_Potential_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_2.png?raw=true "Distribution of leading digit of total reporting numbers (line) versus expected values of Benford's law (bars)")
+![](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/supporting_material/figures/figure_2.png?raw=true "Distribution of leading digit of total reporting numbers (line) versus expected values of Benford's law (bars)")
 
 A chi-square test is calculated for each of these 665 test centers. The chi-square test value determines the degree of deviation.
 
@@ -265,19 +284,23 @@ A chi-square test is calculated for each of these 665 test centers. The chi-squa
 In table 4, we have summarized the number of test centers classified by conventional methods and Benford´s Law. The threshold for test centers considered to be conspicuous according to Benford´s Law was set to those 10% with the largest chi-square test value.
 
 **Table 4: Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from Benford´s law.**
-<table><tr>
+
+<table>
+<tr>
     <th colspan="1" rowspan="2" align="left">Facility type</th>
     <th colspan="3" valign="center">Suspected of fraud by the health authorities (conventional approach)</th>
     <th colspan="3" valign="center">Not suspected of fraud by the health authorities (conventional approach)</th>
     </tr>
-<tr><td colspan="1" align="center" valign="bottom"><b>Statistically conspicuous</b></td>
+<tr>
+    <td colspan="1" align="center" valign="bottom"><b>Statistically conspicuous</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Statistically not conspicuous</b></td>
     <td colspan="1" align="center" valign="bottom"><b>&emsp;Total&emsp;</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Statistically conspicuous</b></td>
     <td colspan="1" align="center" valign="bottom"><b>Statistically not conspicuous</b></td>
     <td colspan="1" align="center" valign="bottom"><b>&emsp;Total&emsp;</b></td>
 </tr>
-<tr><td colspan="1" align="left"><b>Pharmacy</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Pharmacy</b></td>
     <td colspan="1" align="center">0</td>
     <td colspan="1" align="center">0</td>
     <td colspan="1" align="center">0</td>
@@ -285,7 +308,8 @@ In table 4, we have summarized the number of test centers classified by conventi
     <td colspan="1" align="center">55</td>
     <td colspan="1" align="center">60</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Doctor's or dentist's&nbsp;office</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Doctor's or dentist's&nbsp;office</b></td>
     <td colspan="1" align="center">0</td>
     <td colspan="1" align="center">4</td>
     <td colspan="1" align="center">4</td>
@@ -293,7 +317,8 @@ In table 4, we have summarized the number of test centers classified by conventi
     <td colspan="1" align="center">197</td>
     <td colspan="1" align="center">205</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Private test center</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Private test center</b></td>
     <td colspan="1" align="center">10</td>
     <td colspan="1" align="center">65</td>
     <td colspan="1" align="center">75</td>
@@ -301,7 +326,8 @@ In table 4, we have summarized the number of test centers classified by conventi
     <td colspan="1" align="center">227</td>
     <td colspan="1" align="center">321</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Total</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Total</b></td>
     <td colspan="1" align="center">10</td>
     <td colspan="1" align="center">69</td>
     <td colspan="1" align="center">79</td>
@@ -341,19 +367,23 @@ The five test centers with the greatest deviation from the expected distribution
 The threshold for test centers considered to be conspicuous according to the assumption about the last digit distribution was set to those 10% with the largest chi-square test value, yielding 52 test centers. In Table 5, we have summarized the number of test centers classified by traditional approach and the Last Digit method.
 
 **Table 5: Number of test centers by facility type, (non) suspected of fraud by the conventional approach, and (non) suspected of fraud by the statistical approach focusing on the deviation from the law of equally distributed last digits.**
-<table><tr>
+
+<table>
+<tr>
     <th colspan="1" rowspan="2" align="left">Facility type</th>
     <th colspan="3" valign="center">Suspected of fraud by the health authorities (conventional approach)</th>
     <th colspan="3" valign="center">Not suspected of fraud by the health authorities (conventional approach)</th>
     </tr>
-<tr><td colspan="1" valign="bottom"><b>Statistically conspicuous</b></td>
+<tr>
+    <td colspan="1" valign="bottom"><b>Statistically conspicuous</b></td>
     <td colspan="1" valign="bottom"><b>Statistically not conspicuous</b></td>
     <td colspan="1" valign="bottom"><b>&emsp;Total&emsp;</b></td>
     <td colspan="1" valign="bottom"><b>Statistically conspicuous</b></td>
     <td colspan="1" valign="bottom"><b>Statistically not conspicuous</b></td>
     <td colspan="1" valign="bottom"><b>&emsp;Total&emsp;</b></td>
 </tr>
-<tr><td colspan="1" align="left"><b>Pharmacy</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Pharmacy</b></td>
     <td colspan="1" align="center">0</td>
     <td colspan="1" align="center">0</td>
     <td colspan="1" align="center">0</td>
@@ -361,7 +391,8 @@ The threshold for test centers considered to be conspicuous according to the ass
     <td colspan="1" align="center">58</td>
     <td colspan="1" align="center">59</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Doctor's or dentist's&nbsp;office</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Doctor's or dentist's&nbsp;office</b></td>
     <td colspan="1" align="center">1</td>
     <td colspan="1" align="center">3</td>
     <td colspan="1" align="center">4</td>
@@ -369,7 +400,8 @@ The threshold for test centers considered to be conspicuous according to the ass
     <td colspan="1" align="center">48</td>
     <td colspan="1" align="center">62</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Private test center</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Private test center</b></td>
     <td colspan="1" align="center">7</td>
     <td colspan="1" align="center">68</td>
     <td colspan="1" align="center">75</td>
@@ -377,7 +409,8 @@ The threshold for test centers considered to be conspicuous according to the ass
     <td colspan="1" align="center">283</td>
     <td colspan="1" align="center">312</td>
 </tr>
-<tr><td colspan="1" align="left"><b>Total</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Total</b></td>
     <td colspan="1" align="center">8</td>
     <td colspan="1" align="center">71</td>
     <td colspan="1" align="center">79</td>
@@ -412,17 +445,21 @@ Based on the data schema of the analysed data, we have simulated data for overal
 The resulting characteristics of simulated data are shown in table 7. The simulated data does not contain any information from the original data and can be used to test the R-scripts we provided for the analysis. 
 
 **Table 7: Characteristic of simulated data**
-<table><tr>
+
+<table>
+<tr>
     <th colspan="1" rowspan="2" align="left">Facility type</th>
     <th colspan="1" rowspan="2" align="center">test centers [N]</th>
     <th colspan="1" rowspan="2" align="center">test centers suspected of fraud [N]</th>
     <th colspan="1" rowspan="2" align="center">Tests [N]</th>
     <th colspan="3" align="center">Tests per day</th>
     <th colspan="1" rowspan="2"  align="center" valign="bottom">Positive tests [%]</th></tr>
-<tr><td colspan="1" align="center"><b>Mean</b></td>
+<tr>
+    <td colspan="1" align="center"><b>Mean</b></td>
     <td colspan="1" align="center"><b>Max</b></td>
     <td colspan="1" align="center"><b>median</b></td></tr>
-<tr><td colspan="1" align="left"><b>Pharmacy</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Pharmacy</b></td>
     <td colspan="1" align="center">290</td>
     <td colspan="1" align="center">4</td>
     <td colspan="1" align="center">6,795,707</td>
@@ -430,7 +467,8 @@ The resulting characteristics of simulated data are shown in table 7. The simula
     <td colspan="1" align="center">1,387</td>
     <td colspan="1" align="center">98</td>
     <td colspan="1" align="center">1.42</td></tr>
-<tr><td colspan="1" align="left"><b>Doctor's or dentist's office</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Doctor's or dentist's office</b></td>
     <td colspan="1" align="center">357</td>
     <td colspan="1" align="center">6</td>
     <td colspan="1" align="center">8,312,270</td>
@@ -438,7 +476,8 @@ The resulting characteristics of simulated data are shown in table 7. The simula
     <td colspan="1" align="center">1,663</td>
     <td colspan="1" align="center">110</td>
     <td colspan="1" align="center">1.75</td></tr>
-<tr><td colspan="1" align="left"><b>Private test center</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Private test center</b></td>
     <td colspan="1" align="center">160</td>
     <td colspan="1" align="center">3</td>
     <td colspan="1" align="center">4,457,176</td>
@@ -446,7 +485,8 @@ The resulting characteristics of simulated data are shown in table 7. The simula
     <td colspan="1" align="center">2,019</td>
     <td colspan="1" align="center">113</td>
     <td colspan="1" align="center">1.16</td></tr>
-<tr><td colspan="1" align="left"><b>Total</b></td>
+<tr>
+    <td colspan="1" align="left"><b>Total</b></td>
     <td colspan="1" align="center">807</td>
     <td colspan="1" align="center">13</td>
     <td colspan="1" align="center">19,565,153</td>
@@ -455,6 +495,7 @@ The resulting characteristics of simulated data are shown in table 7. The simula
     <td colspan="1" align="center">106</td>
     <td colspan="1" align="center">1.50</td></tr>
 </table>
+
 
 ## Content and structure of the appendix data
 
@@ -465,7 +506,7 @@ The tables, figures and their data, R-scripts and simulated data described in th
 The results of the analyses conducted are provided as data tables. The files are named as the corresponding tables in the [Methods and Results](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection?tab=readme-ov-file#Methods-and-Results) sextion as `Table_1.tsv`, etc.
 
 | File | Description | Download | 
-| ---  | ----------- | :----: |
+| :---  | :----------- | :----: |
 | [Table_1.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_1.tsv) | Basic statistics of the mean number of tests per day and test centers by facility type, statistically conspicuous  and statistically not conspicuous of fraud | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_1.tsv)|
 | [Table_2.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_2.tsv) | Statistics of estimated fixed effects | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_2.tsv)|
 | [Table_3.tsv](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Table_3.tsv) | Summary of classifications into statistical conspicuous versus not conspicuous test centers according to the Poisson regression model used | [💾](https://github.com/robert-koch-institut/Appendix_COVID-19_test_fraud_detection/blob/main/Table_3.tsv)|
@@ -493,7 +534,7 @@ The figures are named according to the numbering in the appendix as `figure_1.pn
 
 ##### Variables and valuests of the figure data  
 | Variable | Type | Variations | Description |
-| :------------- | ----- | -------- | --------- |
+| :------------- | :----- | :-------- | :--------- |
 | testcenter_id / tnr | integer | `1` ... `807` | ID of test center |
 | typ_l | string | `Pharmacy`, `Doctors or dentists office`, <br> `Private test center` | Facility type |
 | mean | float | `≥0`| mean number of tests per day |
@@ -519,7 +560,7 @@ Simulated data for testing the evaluation R-scripts are provided. These correspo
 ### Data schema of the simulated data  
 
 |Variable | Type           | Values | Description|
-| -       | -              | -      |-          |
+| :-       | :-              | :-      | :-          |
 |typ      | string         | `Pharmacy`, `Doctors or dentists office`, `Private test center`   | Facility type (pharmacy, doctor's or dentist's office or private test center)|
 |tnr          | interger   |  `1` ... `999`      | Testcenter identification number|
 |date         | date       |`yyyy-mm-dd`| Date of the tests in ISO 8601 format|
@@ -537,14 +578,13 @@ Further information on the simulated data can be found in the corresponding [sec
 
 <!-- FOOTER_START: {"lang": "en"} -->
 
-
 ### Metadata
 
 To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
 
 > [Metadata/](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/tree/main/Metadata/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json). Documentation of the individual metadata variables can be found at [https://developers.zenodo.org/representation](https://developers.zenodo.org/#representation).
 
 > [Metadata/zenodo.json](https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection/blob/main/Metadata/zenodo.json)
 
@@ -555,8 +595,8 @@ The zenodo.json includes the publication date and the date of the data status in
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```
@@ -568,10 +608,12 @@ The zenodo.json includes the publication date and the date of the data status in
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
 
-- https://zenodo.org/communities/robertkochinstitut
-- https://github.com/robert-koch-institut
-- https://gitlab.opencode.de/robert-koch-institut
-- https://edoc.rki.de/
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)
+- [https://edoc.rki.de/](https://edoc.rki.de/)
+
+
 
 ### License
 
